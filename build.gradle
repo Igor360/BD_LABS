@@ -8,9 +8,6 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
-plugins {
-    id 'net.ltgt.apt' version '0.10'
-}
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -26,7 +23,6 @@ dependencies {
             [group: 'org.apache.commons', name: 'commons-csv', version: '1.5']
     )
 
-    apt "org.projectlombok:lombok:1.16.18"
 
 }
 
