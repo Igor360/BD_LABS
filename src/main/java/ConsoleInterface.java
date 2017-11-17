@@ -59,10 +59,10 @@ public class ConsoleInterface {
         LogsDB.getIP(con.getCollection(),"yandex.ru");
         LogsDB.getURL(con.getCollection(),60, 70);
         LogsDB.getURL(con.getCollection(), "11.22.32.22");
-        MapReduce.getURL(con.getCollection());
-        MapReduce.getURLNumber(con.getCollection());
-        MapReduce.getURLByHours(con.getCollection(), "2017-11-12","2018-12-12");
-        MapReduce.getIpDuration(con.getCollection());
+            MapReduce.getURL(con.getCollection());
+            MapReduce.getURLNumber(con.getCollection());
+            MapReduce.getURLByHours(con.getCollection(), "2017-11-12","2018-12-12");
+            MapReduce.getIpDuration(con.getCollection());
     }
 
 
