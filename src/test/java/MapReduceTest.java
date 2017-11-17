@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class MapReduceTest {
     ConnectionMongo con = null;
-    boolean isConnected = false;
+    boolean isConnected = true;
     @Before
     public void init(){
         try {
