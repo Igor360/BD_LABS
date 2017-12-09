@@ -22,15 +22,6 @@ public class LAB3TEST {
         Assert.assertNotNull(DataGeneratorNeo4j.getGroupName());
     }
 
-    @Test
-    public void test2(){
-        GeneratorRandomDataInDB.generateUsers(30);
-        GeneratorRandomDataInDB.generateArticles(20);
-        GeneratorRandomDataInDB.generateGroups(20);
-        Assert.assertTrue(GeneratorRandomDataInDB.getArticles() != null);
-        Assert.assertTrue(GeneratorRandomDataInDB.getPersons() != null);
-        Assert.assertTrue(GeneratorRandomDataInDB.getGroups() != null);
-    }
 
 
 }
