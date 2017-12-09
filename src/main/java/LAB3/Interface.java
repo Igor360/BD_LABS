@@ -1,6 +1,5 @@
 package LAB3;
 
-import net.xqj.sedna.bin.Q;
 
 public class Interface {
     public static void main (String[] args){

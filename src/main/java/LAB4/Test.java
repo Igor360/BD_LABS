@@ -1,10 +1,5 @@
 package LAB4;
 
-import net.xqj.sedna.bin.Q;
-import org.apache.lucene.queryparser.flexible.core.QueryNodeError;
-
-import java.io.File;
-
 public class Test {
     public static void main(String[] args) throws Exception{
         //GeneratorDataInDB.generateBooks();
