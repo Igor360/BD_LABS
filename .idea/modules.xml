@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BD_LABS.iml" filepath="$PROJECT_DIR$/.idea/modules/BD_LABS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BD_LABS_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BD_LABS_main.iml" group="BD_LABS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BD_LABS_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BD_LABS_test.iml" group="BD_LABS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STP-1-BD_LABS_main.iml" filepath="$PROJECT_DIR$/.idea/modules/STP-1-BD_LABS_main.iml" group="BD_LABS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STP-1-BD_LABS_test.iml" filepath="$PROJECT_DIR$/.idea/modules/STP-1-BD_LABS_test.iml" group="BD_LABS" />
     </modules>
   </component>
 </project>
