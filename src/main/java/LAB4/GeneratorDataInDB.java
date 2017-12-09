@@ -3,9 +3,7 @@ package LAB4;
 import LAB3.ConnectorNeo4j;
 import LAB3.QueryGenerator;
 import lombok.Getter;
-import org.neo4j.driver.internal.InternalNode;
-import org.neo4j.driver.v1.Record;
-import org.neo4j.driver.v1.StatementResult;
+
 
 import java.util.ArrayList;
 import java.util.List;
