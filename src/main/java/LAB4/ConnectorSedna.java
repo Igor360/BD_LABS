@@ -5,16 +5,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import net.xqj.sedna.SednaXQDataSource;
-import oracle.xml.xquery.OXQConnection;
-import oracle.xml.xquery.OXQDataSource;
-import oracle.xml.xquery.OXQView;
-import org.xmldb.api.*;
-import org.xmldb.api.base.*;
-import org.xmldb.api.modules.*;
 
 import javax.xml.xquery.*;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -34,7 +27,7 @@ public class ConnectorSedna {
         private XQDataSource xqs = new SednaXQDataSource();
         private XQConnection conn = null;
 
-        public ConnectorSedna() throws XQException{
+        public ConnectorSedna() throws Exception{
                 xqs.setProperty("serverName", url.toString());
                 xqs.setProperty("databaseName", nameDB);
                 conn = xqs.getConnection(user, password);
@@ -60,7 +53,7 @@ public class ConnectorSedna {
         }
 
 
-        public void executeQuery(String query) throws XQException{
+        public void executeQuery(String query) throws Exception{
                 XQPreparedExpression xqpe = conn.prepareExpression(query);
                 XQResultSequence rs = xqpe.executeQuery();
                 while(rs.next()) {
@@ -69,7 +62,7 @@ public class ConnectorSedna {
         }
 
 
-        public void close()throws XQException{
+        public void close()throws Exception{
                 conn.close();
                 System.out.println("Disconnected from Sedna.");
         }
